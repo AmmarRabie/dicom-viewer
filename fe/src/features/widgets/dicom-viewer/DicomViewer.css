@@ -1,0 +1,41 @@
+#dwv {
+    height: 90%;
+}
+
+.button-row {
+    text-align: center;
+}
+
+/* Layers */
+.layerGroup {
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}
+
+.layer {
+    position: absolute;
+    pointer-events: none;
+}
+
+.drawDiv {
+    position: absolute;
+    pointer-events: none;
+}
+
+
+#input-file-link {
+    text-decoration-line: underline;
+}
+
+
+.appBar {
+    position: relative;
+}
+
+
+.iconSmall {
+    fontSize: 20
+}
